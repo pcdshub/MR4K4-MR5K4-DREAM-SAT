@@ -1465,11 +1465,19 @@ External Setpoint Generation:
 				<Axis CreateSymbols="true" AxisType="1" Id="1">
 					<Name>M4K4 X</Name>
 					<AxisPara>
+						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
+						<Velo Maximum="18"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
+						<ParameterChanged>39</ParameterChanged>
+						<ParameterChanged>257</ParameterChanged>
+						<ParameterChanged>242</ParameterChanged>
+						<ParameterChanged>241</ParameterChanged>
+						<ParameterChanged>258</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
-						<EncPara MaxCount="#xffffffff">
+						<EncPara ScaleFactorNumerator="5e-06" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
+							<ParameterChanged>35</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -1512,7 +1520,7 @@ External Setpoint Generation:
 					</Encoder>
 					<Drive Name="Drive" DrvType="24">
 						<DrvPara>
-							<Analog ScaleFactorActTorque="0.1"/>
+							<Analog VeloReferenz="20" ScaleFactorActTorque="0.1"/>
 							<TimeComp TaskDelayCycles="1"/>
 						</DrvPara>
 						<Vars VarGrpType="1">
@@ -1668,11 +1676,19 @@ External Setpoint Generation:
 				<Axis CreateSymbols="true" AxisType="1" Id="2">
 					<Name>M4K4 Y</Name>
 					<AxisPara>
+						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
+						<Velo Maximum="1.1"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
+						<ParameterChanged>39</ParameterChanged>
+						<ParameterChanged>257</ParameterChanged>
+						<ParameterChanged>242</ParameterChanged>
+						<ParameterChanged>258</ParameterChanged>
+						<ParameterChanged>241</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
-						<EncPara MaxCount="#xffffffff">
+						<EncPara ScaleFactorNumerator="5e-06" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
+							<ParameterChanged>35</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -1715,7 +1731,7 @@ External Setpoint Generation:
 					</Encoder>
 					<Drive Name="Drive" DrvType="24">
 						<DrvPara>
-							<Analog ScaleFactorActTorque="0.1"/>
+							<Analog VeloReferenz="1.25" ScaleFactorActTorque="0.1"/>
 							<TimeComp TaskDelayCycles="1"/>
 						</DrvPara>
 						<Vars VarGrpType="1">
@@ -1873,11 +1889,19 @@ External Setpoint Generation:
 				<Axis CreateSymbols="true" AxisType="1" Id="3">
 					<Name>M4K4 Z</Name>
 					<AxisPara>
+						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
+						<Velo Maximum="1.1"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
+						<ParameterChanged>39</ParameterChanged>
+						<ParameterChanged>257</ParameterChanged>
+						<ParameterChanged>242</ParameterChanged>
+						<ParameterChanged>258</ParameterChanged>
+						<ParameterChanged>241</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
-						<EncPara MaxCount="#xffffffff">
+						<EncPara ScaleFactorNumerator="5e-06" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
+							<ParameterChanged>35</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -1920,7 +1944,7 @@ External Setpoint Generation:
 					</Encoder>
 					<Drive Name="Drive" DrvType="24">
 						<DrvPara>
-							<Analog ScaleFactorActTorque="0.1"/>
+							<Analog VeloReferenz="1.25" ScaleFactorActTorque="0.1"/>
 							<TimeComp TaskDelayCycles="1"/>
 						</DrvPara>
 						<Vars VarGrpType="1">
@@ -2078,11 +2102,20 @@ External Setpoint Generation:
 				<Axis CreateSymbols="true" AxisType="1" Id="4">
 					<Name>M4K4 rX</Name>
 					<AxisPara>
+						<General UnitName="Degree"/>
+						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
+						<Velo Maximum="100"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
+						<ParameterChanged>39</ParameterChanged>
+						<ParameterChanged>257</ParameterChanged>
+						<ParameterChanged>242</ParameterChanged>
+						<ParameterChanged>258</ParameterChanged>
+						<ParameterChanged>241</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
-						<EncPara MaxCount="#xffffffff">
+						<EncPara ScaleFactorNumerator="0.0025826" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
+							<ParameterChanged>35</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2125,7 +2158,7 @@ External Setpoint Generation:
 					</Encoder>
 					<Drive Name="Drive" DrvType="24">
 						<DrvPara>
-							<Analog ScaleFactorActTorque="0.1"/>
+							<Analog VeloReferenz="140.69" ScaleFactorActTorque="0.1"/>
 							<TimeComp TaskDelayCycles="1"/>
 						</DrvPara>
 						<Vars VarGrpType="1">
@@ -2283,7 +2316,14 @@ External Setpoint Generation:
 				<Axis CreateSymbols="true" AxisType="1" Id="5">
 					<Name>M5K4 X</Name>
 					<AxisPara>
+						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
+						<Velo Maximum="18"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
+						<ParameterChanged>39</ParameterChanged>
+						<ParameterChanged>257</ParameterChanged>
+						<ParameterChanged>242</ParameterChanged>
+						<ParameterChanged>258</ParameterChanged>
+						<ParameterChanged>241</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
 						<EncPara MaxCount="#xffffffff">
@@ -2330,7 +2370,7 @@ External Setpoint Generation:
 					</Encoder>
 					<Drive Name="Drive" DrvType="24">
 						<DrvPara>
-							<Analog ScaleFactorActTorque="0.1"/>
+							<Analog VeloReferenz="20" ScaleFactorActTorque="0.1"/>
 							<TimeComp TaskDelayCycles="1"/>
 						</DrvPara>
 						<Vars VarGrpType="1">
@@ -2488,11 +2528,19 @@ External Setpoint Generation:
 				<Axis CreateSymbols="true" AxisType="1" Id="6">
 					<Name>M5K4 Y</Name>
 					<AxisPara>
+						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
+						<Velo Maximum="1.1"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
+						<ParameterChanged>39</ParameterChanged>
+						<ParameterChanged>257</ParameterChanged>
+						<ParameterChanged>242</ParameterChanged>
+						<ParameterChanged>258</ParameterChanged>
+						<ParameterChanged>241</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
-						<EncPara MaxCount="#xffffffff">
+						<EncPara ScaleFactorNumerator="5e-06" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
+							<ParameterChanged>35</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2535,7 +2583,7 @@ External Setpoint Generation:
 					</Encoder>
 					<Drive Name="Drive" DrvType="24">
 						<DrvPara>
-							<Analog ScaleFactorActTorque="0.1"/>
+							<Analog VeloReferenz="1.25" ScaleFactorActTorque="0.1"/>
 							<TimeComp TaskDelayCycles="1"/>
 						</DrvPara>
 						<Vars VarGrpType="1">
@@ -5233,7 +5281,7 @@ External Setpoint Generation:
 								<Entry Name="Status__">
 									<Type GUID="{18071995-0000-0000-0000-002000000003}">ARRAY [0..2] OF BIT</Type>
 								</Entry>
-								<Entry Name="Status__Digital input 1" Index="#x6010" Sub="#x0c">
+								<Entry Name="Status__Digital input 1" Index="#x6010" Sub="#x0c" Flags="#x00008020">
 									<Type>BIT</Type>
 								</Entry>
 								<Entry Name="Status__Digital input 2" Index="#x6010" Sub="#x0d">
@@ -9459,6 +9507,7 @@ Bit1: Value bigger/equal Limit2]]>
 	</Project>
 	<Mappings>
 		<MappingInfo Identifier="{08502001-0010-0304-0020-500810000403}" Id="#x02030020" Watchdog="00000000000000000000000000000000"/>
+		<MappingInfo Identifier="{05000010-2001-0850-3000-040300205008}" Id="#x02030040" Watchdog="14000000040000000400000004000000"/>
 		<MappingInfo Identifier="{00000000-0010-0304-3000-040310000403}" Id="#x02030010"/>
 		<MappingInfo Identifier="{00000000-2001-0850-0020-500841000403}" Id="#x02030030"/>
 		<OwnerA Name="TINC^NC-Task 1 SAF^Axes^M4K4 X">
