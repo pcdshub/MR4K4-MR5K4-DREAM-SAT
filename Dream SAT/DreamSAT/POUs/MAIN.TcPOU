@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.18">
+  <POU Name="MAIN" Id="{26f19202-7adf-4919-b4fc-b16897c97f6a}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+		{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[M4K4 X]^STM Status^Status^Digital input 1;
+                              .bLimitBackwardEnable:=TIIB[M4K4 X]^STM Status^Status^Digital input 2'}
+	 M1 : DUT_MotionStage := (nEnableMode:=ENUM_StageEnableMode.ALWAYS, bPowerSelf:=TRUE);
+    fbMotionStageM4 : FB_MotionStage;
+	
+	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[M4K4 Y]^STM Status^Status^Digital input 1;
+                              .bLimitBackwardEnable:=TIIB[M4K4 Y]^STM Status^Status^Digital input 2'}
+	 M2 : DUT_MotionStage := (nEnableMode:=ENUM_StageEnableMode.ALWAYS, bPowerSelf:=TRUE);
+    fbMotionStageM5 : FB_MotionStage;
+	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[M4K4 Z]^STM Status^Status^Digital input 1;
+                              .bLimitBackwardEnable:=TIIB[M4K4 Z]^STM Status^Status^Digital input 2'}
+	 M3 : DUT_MotionStage := (nEnableMode:=ENUM_StageEnableMode.ALWAYS, bPowerSelf:=TRUE);
+    fbMotionStageM6 : FB_MotionStage;
+	
+	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[M4K4 P]^STM Status^Status^Digital input 1;
+                              .bLimitBackwardEnable:=TIIB[M4K4 P]^STM Status^Status^Digital input 2'}
+	 M4 : DUT_MotionStage := (nEnableMode:=ENUM_StageEnableMode.ALWAYS, bPowerSelf:=TRUE);
+    fbMotionStageM7 : FB_MotionStage;
+	 
+	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[M5K4 X]^STM Status^Status^Digital input 1;
+                              .bLimitBackwardEnable:=TIIB[M5K4 X]^STM Status^Status^Digital input 2'}
+	 M5 : DUT_MotionStage := (nEnableMode:=ENUM_StageEnableMode.ALWAYS, bPowerSelf:=TRUE);
+    fbMotionStageM8 : FB_MotionStage;
+	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[M5K4 Y]^STM Status^Status^Digital input 1;
+                              .bLimitBackwardEnable:=TIIB[M5K4 Y]^STM Status^Status^Digital input 2'}
+	
+	 M6 : DUT_MotionStage := (nEnableMode:=ENUM_StageEnableMode.ALWAYS, bPowerSelf:=TRUE);
+    fbMotionStageM9 : FB_MotionStage;
+	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[M5K4 Z]^STM Status^Status^Digital input 1;
+                              .bLimitBackwardEnable:=TIIB[M5K4 Z]^STM Status^Status^Digital input 2'}
+	 M7 : DUT_MotionStage := (nEnableMode:=ENUM_StageEnableMode.ALWAYS, bPowerSelf:=TRUE);
+    fbMotionStageM10 : FB_MotionStage;
+	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[M5K4 P]^STM Status^Status^Digital input 1;
+                              .bLimitBackwardEnable:=TIIB[M5K4 P]^STM Status^Status^Digital input 2'}
+	 M8 : DUT_MotionStage := (nEnableMode:=ENUM_StageEnableMode.ALWAYS, bPowerSelf:=TRUE);
+    fbMotionStageM11 : FB_MotionStage;
+	
+	{attribute 'TcLinkTo' := 'TIID^Device 1 (EtherCAT)^Term 1 (EK1100)^Term 16 (EL1004)^Channel 1^Input'}
+    bSTOEnable2 AT %I* : BOOL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[M1.bHardwareEnable := bSTOEnable2;
+M2.bHardwareEnable := bSTOEnable2;
+M3.bHardwareEnable := bSTOEnable2;
+M4.bHardwareEnable := bSTOEnable2;
+M5.bHardwareEnable := bSTOEnable2;
+M6.bHardwareEnable := bSTOEnable2;
+M7.bHardwareEnable := bSTOEnable2;
+M8.bHardwareEnable := bSTOEnable2;]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="45" Count="6" />
+      <LineId Id="2" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
