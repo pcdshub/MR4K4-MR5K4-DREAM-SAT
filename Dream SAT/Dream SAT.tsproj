@@ -1468,16 +1468,10 @@ External Setpoint Generation:
 						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
 						<Velo Maximum="18"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>39</ParameterChanged>
-						<ParameterChanged>257</ParameterChanged>
-						<ParameterChanged>242</ParameterChanged>
-						<ParameterChanged>241</ParameterChanged>
-						<ParameterChanged>258</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
 						<EncPara ScaleFactorNumerator="5e-06" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>35</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -1679,16 +1673,10 @@ External Setpoint Generation:
 						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
 						<Velo Maximum="1.1"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>39</ParameterChanged>
-						<ParameterChanged>257</ParameterChanged>
-						<ParameterChanged>242</ParameterChanged>
-						<ParameterChanged>258</ParameterChanged>
-						<ParameterChanged>241</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
 						<EncPara ScaleFactorNumerator="5e-06" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>35</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -1892,16 +1880,10 @@ External Setpoint Generation:
 						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
 						<Velo Maximum="1.1"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>39</ParameterChanged>
-						<ParameterChanged>257</ParameterChanged>
-						<ParameterChanged>242</ParameterChanged>
-						<ParameterChanged>258</ParameterChanged>
-						<ParameterChanged>241</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
 						<EncPara ScaleFactorNumerator="5e-06" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>35</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2106,16 +2088,10 @@ External Setpoint Generation:
 						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
 						<Velo Maximum="100"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>39</ParameterChanged>
-						<ParameterChanged>257</ParameterChanged>
-						<ParameterChanged>242</ParameterChanged>
-						<ParameterChanged>258</ParameterChanged>
-						<ParameterChanged>241</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
 						<EncPara ScaleFactorNumerator="0.0025826" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>35</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2319,11 +2295,6 @@ External Setpoint Generation:
 						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
 						<Velo Maximum="18"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>39</ParameterChanged>
-						<ParameterChanged>257</ParameterChanged>
-						<ParameterChanged>242</ParameterChanged>
-						<ParameterChanged>258</ParameterChanged>
-						<ParameterChanged>241</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
 						<EncPara MaxCount="#xffffffff">
@@ -2531,16 +2502,10 @@ External Setpoint Generation:
 						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
 						<Velo Maximum="1.1"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>39</ParameterChanged>
-						<ParameterChanged>257</ParameterChanged>
-						<ParameterChanged>242</ParameterChanged>
-						<ParameterChanged>258</ParameterChanged>
-						<ParameterChanged>241</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
 						<EncPara ScaleFactorNumerator="5e-06" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>35</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2741,10 +2706,12 @@ External Setpoint Generation:
 				<Axis CreateSymbols="true" AxisType="1" Id="7">
 					<Name>M5K4 Z</Name>
 					<AxisPara>
+						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
+						<Velo Maximum="1.1"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
-						<EncPara MaxCount="#xffffffff">
+						<EncPara ScaleFactorNumerator="5e-06" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
 						</EncPara>
 						<Vars VarGrpType="1">
@@ -2788,7 +2755,7 @@ External Setpoint Generation:
 					</Encoder>
 					<Drive Name="Drive" DrvType="24">
 						<DrvPara>
-							<Analog ScaleFactorActTorque="0.1"/>
+							<Analog VeloReferenz="1.25" ScaleFactorActTorque="0.1"/>
 							<TimeComp TaskDelayCycles="1"/>
 						</DrvPara>
 						<Vars VarGrpType="1">
@@ -2946,10 +2913,13 @@ External Setpoint Generation:
 				<Axis CreateSymbols="true" AxisType="1" Id="8">
 					<Name>M5K4 rY</Name>
 					<AxisPara>
+						<General UnitName="Degree"/>
+						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
+						<Velo Maximum="180"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
-						<EncPara MaxCount="#xffffffff">
+						<EncPara ScaleFactorNumerator="0.00504" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
 						</EncPara>
 						<Vars VarGrpType="1">
@@ -2993,7 +2963,7 @@ External Setpoint Generation:
 					</Encoder>
 					<Drive Name="Drive" DrvType="24">
 						<DrvPara>
-							<Analog ScaleFactorActTorque="0.1"/>
+							<Analog VeloReferenz="192.31" ScaleFactorActTorque="0.1"/>
 							<TimeComp TaskDelayCycles="1"/>
 						</DrvPara>
 						<Vars VarGrpType="1">
@@ -4002,55 +3972,6 @@ External Setpoint Generation:
 							<Type>INT</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM9.fbDriveVirtual.MasterAxis.NcToPlc</Name>
-							<Type GUID="{6A65C767-34E5-42BF-AD87-E1A503EAC7BE}" Namespace="MC">NCTOPLC_AXIS_REF</Type>
-							<SubVar>
-								<Name>AxisState</Name>
-								<Comment>
-									<![CDATA[Present State Of The Axis Movement (continuous axis):
-0  = INACTIVE:		axis has no job
-1  = RUNNING:		axis is executing a motion job
-2  = OVERRIDE_ZERO:	axis is executing a job but override is zero
-3  = PHASE_VELOCONST:	axis is moving at constant velocity
-4  = PHASE_ACCPOS:	axis is accelerating
-5  = PHASE_ACCNEG:	axis is decelerating
-Slaves only:
-11 = PREPHASE:		slave axis is in a motion pre-phase
-12 = SYNCHRONIZING:	slave axis is synchronizing
-13 = SYNCHRONOUS:	slave axis is moving synchronously
-External Setpoint Generation:
-41 = EXTSETGEN_MODE1:	external setpoint generation active
-42 = EXTSETGEN_MODE2:	internal and external setpoint gen. active
-]]>
-								</Comment>
-							</SubVar>
-							<SubVar>
-								<Name>HomingState</Name>
-								<Comment>
-									<![CDATA[Axis Homing Status:
-0: idle
-1: start homing
-2: searching home switch
-3: stopping on home switch
-4: moving off home switch
-5: searching sync pulse
-6: stopping after homing
-]]>
-								</Comment>
-							</SubVar>
-							<SubVar>
-								<Name>CoupleState</Name>
-								<Comment>
-									<![CDATA[Axis Coupling Status:
-0: axis is a single axis (not coupled)
-1: axis is a master axis
-2: axis is master and slave
-3: axis is a slave axis
-]]>
-								</Comment>
-							</SubVar>
-						</Var>
-						<Var>
 							<Name>MAIN.M7.Axis.NcToPlc</Name>
 							<Type GUID="{6A65C767-34E5-42BF-AD87-E1A503EAC7BE}" Namespace="MC">NCTOPLC_AXIS_REF</Type>
 							<SubVar>
@@ -4147,55 +4068,6 @@ External Setpoint Generation:
 								<![CDATA[ Raw encoder IO for INT (LVDT)]]>
 							</Comment>
 							<Type>INT</Type>
-						</Var>
-						<Var>
-							<Name>MAIN.fbMotionStageM10.fbDriveVirtual.MasterAxis.NcToPlc</Name>
-							<Type GUID="{6A65C767-34E5-42BF-AD87-E1A503EAC7BE}" Namespace="MC">NCTOPLC_AXIS_REF</Type>
-							<SubVar>
-								<Name>AxisState</Name>
-								<Comment>
-									<![CDATA[Present State Of The Axis Movement (continuous axis):
-0  = INACTIVE:		axis has no job
-1  = RUNNING:		axis is executing a motion job
-2  = OVERRIDE_ZERO:	axis is executing a job but override is zero
-3  = PHASE_VELOCONST:	axis is moving at constant velocity
-4  = PHASE_ACCPOS:	axis is accelerating
-5  = PHASE_ACCNEG:	axis is decelerating
-Slaves only:
-11 = PREPHASE:		slave axis is in a motion pre-phase
-12 = SYNCHRONIZING:	slave axis is synchronizing
-13 = SYNCHRONOUS:	slave axis is moving synchronously
-External Setpoint Generation:
-41 = EXTSETGEN_MODE1:	external setpoint generation active
-42 = EXTSETGEN_MODE2:	internal and external setpoint gen. active
-]]>
-								</Comment>
-							</SubVar>
-							<SubVar>
-								<Name>HomingState</Name>
-								<Comment>
-									<![CDATA[Axis Homing Status:
-0: idle
-1: start homing
-2: searching home switch
-3: stopping on home switch
-4: moving off home switch
-5: searching sync pulse
-6: stopping after homing
-]]>
-								</Comment>
-							</SubVar>
-							<SubVar>
-								<Name>CoupleState</Name>
-								<Comment>
-									<![CDATA[Axis Coupling Status:
-0: axis is a single axis (not coupled)
-1: axis is a master axis
-2: axis is master and slave
-3: axis is a slave axis
-]]>
-								</Comment>
-							</SubVar>
 						</Var>
 						<Var>
 							<Name>MAIN.M8.Axis.NcToPlc</Name>
@@ -4296,7 +4168,105 @@ External Setpoint Generation:
 							<Type>INT</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM11.fbDriveVirtual.MasterAxis.NcToPlc</Name>
+							<Name>MAIN.fbMotionStageM1.fbDriveVirtual.MasterAxis.NcToPlc</Name>
+							<Type GUID="{6A65C767-34E5-42BF-AD87-E1A503EAC7BE}" Namespace="MC">NCTOPLC_AXIS_REF</Type>
+							<SubVar>
+								<Name>AxisState</Name>
+								<Comment>
+									<![CDATA[Present State Of The Axis Movement (continuous axis):
+0  = INACTIVE:		axis has no job
+1  = RUNNING:		axis is executing a motion job
+2  = OVERRIDE_ZERO:	axis is executing a job but override is zero
+3  = PHASE_VELOCONST:	axis is moving at constant velocity
+4  = PHASE_ACCPOS:	axis is accelerating
+5  = PHASE_ACCNEG:	axis is decelerating
+Slaves only:
+11 = PREPHASE:		slave axis is in a motion pre-phase
+12 = SYNCHRONIZING:	slave axis is synchronizing
+13 = SYNCHRONOUS:	slave axis is moving synchronously
+External Setpoint Generation:
+41 = EXTSETGEN_MODE1:	external setpoint generation active
+42 = EXTSETGEN_MODE2:	internal and external setpoint gen. active
+]]>
+								</Comment>
+							</SubVar>
+							<SubVar>
+								<Name>HomingState</Name>
+								<Comment>
+									<![CDATA[Axis Homing Status:
+0: idle
+1: start homing
+2: searching home switch
+3: stopping on home switch
+4: moving off home switch
+5: searching sync pulse
+6: stopping after homing
+]]>
+								</Comment>
+							</SubVar>
+							<SubVar>
+								<Name>CoupleState</Name>
+								<Comment>
+									<![CDATA[Axis Coupling Status:
+0: axis is a single axis (not coupled)
+1: axis is a master axis
+2: axis is master and slave
+3: axis is a slave axis
+]]>
+								</Comment>
+							</SubVar>
+						</Var>
+						<Var>
+							<Name>MAIN.fbMotionStageM2.fbDriveVirtual.MasterAxis.NcToPlc</Name>
+							<Type GUID="{6A65C767-34E5-42BF-AD87-E1A503EAC7BE}" Namespace="MC">NCTOPLC_AXIS_REF</Type>
+							<SubVar>
+								<Name>AxisState</Name>
+								<Comment>
+									<![CDATA[Present State Of The Axis Movement (continuous axis):
+0  = INACTIVE:		axis has no job
+1  = RUNNING:		axis is executing a motion job
+2  = OVERRIDE_ZERO:	axis is executing a job but override is zero
+3  = PHASE_VELOCONST:	axis is moving at constant velocity
+4  = PHASE_ACCPOS:	axis is accelerating
+5  = PHASE_ACCNEG:	axis is decelerating
+Slaves only:
+11 = PREPHASE:		slave axis is in a motion pre-phase
+12 = SYNCHRONIZING:	slave axis is synchronizing
+13 = SYNCHRONOUS:	slave axis is moving synchronously
+External Setpoint Generation:
+41 = EXTSETGEN_MODE1:	external setpoint generation active
+42 = EXTSETGEN_MODE2:	internal and external setpoint gen. active
+]]>
+								</Comment>
+							</SubVar>
+							<SubVar>
+								<Name>HomingState</Name>
+								<Comment>
+									<![CDATA[Axis Homing Status:
+0: idle
+1: start homing
+2: searching home switch
+3: stopping on home switch
+4: moving off home switch
+5: searching sync pulse
+6: stopping after homing
+]]>
+								</Comment>
+							</SubVar>
+							<SubVar>
+								<Name>CoupleState</Name>
+								<Comment>
+									<![CDATA[Axis Coupling Status:
+0: axis is a single axis (not coupled)
+1: axis is a master axis
+2: axis is master and slave
+3: axis is a slave axis
+]]>
+								</Comment>
+							</SubVar>
+						</Var>
+						<Var>
+							<Name>MAIN.fbMotionStageM3.fbDriveVirtual.MasterAxis.NcToPlc</Name>
 							<Type GUID="{6A65C767-34E5-42BF-AD87-E1A503EAC7BE}" Namespace="MC">NCTOPLC_AXIS_REF</Type>
 							<SubVar>
 								<Name>AxisState</Name>
@@ -4434,10 +4404,6 @@ External Setpoint Generation:
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM9.fbDriveVirtual.MasterAxis.PlcToNc</Name>
-							<Type GUID="{63A84524-72E3-41C8-BEAB-4CCE44690A13}" Namespace="MC">PLCTONC_AXIS_REF</Type>
-						</Var>
-						<Var>
 							<Name>MAIN.M7.Axis.PlcToNc</Name>
 							<Type GUID="{63A84524-72E3-41C8-BEAB-4CCE44690A13}" Namespace="MC">PLCTONC_AXIS_REF</Type>
 						</Var>
@@ -4447,10 +4413,6 @@ External Setpoint Generation:
 								<![CDATA[ NC Brake Output: TRUE to release brake]]>
 							</Comment>
 							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>MAIN.fbMotionStageM10.fbDriveVirtual.MasterAxis.PlcToNc</Name>
-							<Type GUID="{63A84524-72E3-41C8-BEAB-4CCE44690A13}" Namespace="MC">PLCTONC_AXIS_REF</Type>
 						</Var>
 						<Var>
 							<Name>MAIN.M8.Axis.PlcToNc</Name>
@@ -4464,7 +4426,15 @@ External Setpoint Generation:
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM11.fbDriveVirtual.MasterAxis.PlcToNc</Name>
+							<Name>MAIN.fbMotionStageM1.fbDriveVirtual.MasterAxis.PlcToNc</Name>
+							<Type GUID="{63A84524-72E3-41C8-BEAB-4CCE44690A13}" Namespace="MC">PLCTONC_AXIS_REF</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.fbMotionStageM2.fbDriveVirtual.MasterAxis.PlcToNc</Name>
+							<Type GUID="{63A84524-72E3-41C8-BEAB-4CCE44690A13}" Namespace="MC">PLCTONC_AXIS_REF</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.fbMotionStageM3.fbDriveVirtual.MasterAxis.PlcToNc</Name>
 							<Type GUID="{63A84524-72E3-41C8-BEAB-4CCE44690A13}" Namespace="MC">PLCTONC_AXIS_REF</Type>
 						</Var>
 					</Vars>
