@@ -2092,7 +2092,6 @@ External Setpoint Generation:
 					<Encoder Name="Enc" EncType="29">
 						<EncPara ScaleFactorNumerator="0.0025826" Offset="-132198.31" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>7</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2922,7 +2921,6 @@ External Setpoint Generation:
 					<Encoder Name="Enc" EncType="29">
 						<EncPara ScaleFactorNumerator="0.00504" Offset="-198155.79" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>7</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -9752,8 +9750,8 @@ Bit1: Value bigger/equal Limit2]]>
 				<Link VarA="PlcTask Inputs^MAIN.M2.bLimitForwardEnable" VarB="STM Status^Status^Digital input 1" AutoLink="true"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1100)^M4K4 Z">
-				<Link VarA="PlcTask Inputs^MAIN.M3.bLimitBackwardEnable" VarB="STM Status^Status^Digital input 2" AutoLink="true"/>
-				<Link VarA="PlcTask Inputs^MAIN.M3.bLimitForwardEnable" VarB="STM Status^Status^Digital input 1" AutoLink="true"/>
+				<Link VarA="PlcTask Inputs^MAIN.M3.bLimitBackwardEnable" VarB="STM Status^Status^Digital input 1" AutoLink="true"/>
+				<Link VarA="PlcTask Inputs^MAIN.M3.bLimitForwardEnable" VarB="STM Status^Status^Digital input 2" AutoLink="true"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1100)^M5K4 P">
 				<Link VarA="PlcTask Inputs^MAIN.M8.bLimitBackwardEnable" VarB="STM Status^Status^Digital input 2" AutoLink="true"/>

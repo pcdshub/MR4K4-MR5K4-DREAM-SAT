@@ -2090,7 +2090,7 @@ External Setpoint Generation:
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
-						<EncPara ScaleFactorNumerator="0.0025826" MaxCount="#xffffffff">
+						<EncPara ScaleFactorNumerator="0.0025826" Offset="-132198.31" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
 							<ParameterChanged>7</ParameterChanged>
 						</EncPara>
@@ -2920,7 +2920,7 @@ External Setpoint Generation:
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
-						<EncPara ScaleFactorNumerator="0.00504" MaxCount="#xffffffff">
+						<EncPara ScaleFactorNumerator="0.00504" Offset="-198155.79" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
 							<ParameterChanged>7</ParameterChanged>
 						</EncPara>
