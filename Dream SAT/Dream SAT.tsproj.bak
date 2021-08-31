@@ -1468,16 +1468,10 @@ External Setpoint Generation:
 						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
 						<Velo Maximum="18"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>39</ParameterChanged>
-						<ParameterChanged>257</ParameterChanged>
-						<ParameterChanged>242</ParameterChanged>
-						<ParameterChanged>241</ParameterChanged>
-						<ParameterChanged>258</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
 						<EncPara ScaleFactorNumerator="5e-06" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>35</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -1679,16 +1673,10 @@ External Setpoint Generation:
 						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
 						<Velo Maximum="1.1"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>39</ParameterChanged>
-						<ParameterChanged>257</ParameterChanged>
-						<ParameterChanged>242</ParameterChanged>
-						<ParameterChanged>258</ParameterChanged>
-						<ParameterChanged>241</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
 						<EncPara ScaleFactorNumerator="5e-06" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>35</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -1892,16 +1880,10 @@ External Setpoint Generation:
 						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
 						<Velo Maximum="1.1"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>39</ParameterChanged>
-						<ParameterChanged>257</ParameterChanged>
-						<ParameterChanged>242</ParameterChanged>
-						<ParameterChanged>258</ParameterChanged>
-						<ParameterChanged>241</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
 						<EncPara ScaleFactorNumerator="5e-06" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>35</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2106,16 +2088,10 @@ External Setpoint Generation:
 						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
 						<Velo Maximum="100"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>39</ParameterChanged>
-						<ParameterChanged>257</ParameterChanged>
-						<ParameterChanged>242</ParameterChanged>
-						<ParameterChanged>258</ParameterChanged>
-						<ParameterChanged>241</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
 						<EncPara ScaleFactorNumerator="0.0025826" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>35</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2319,11 +2295,6 @@ External Setpoint Generation:
 						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
 						<Velo Maximum="18"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>39</ParameterChanged>
-						<ParameterChanged>257</ParameterChanged>
-						<ParameterChanged>242</ParameterChanged>
-						<ParameterChanged>258</ParameterChanged>
-						<ParameterChanged>241</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
 						<EncPara MaxCount="#xffffffff">
@@ -2531,16 +2502,10 @@ External Setpoint Generation:
 						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
 						<Velo Maximum="1.1"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>39</ParameterChanged>
-						<ParameterChanged>257</ParameterChanged>
-						<ParameterChanged>242</ParameterChanged>
-						<ParameterChanged>258</ParameterChanged>
-						<ParameterChanged>241</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
 						<EncPara ScaleFactorNumerator="5e-06" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>35</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2744,16 +2709,10 @@ External Setpoint Generation:
 						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
 						<Velo Maximum="1.1"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>39</ParameterChanged>
-						<ParameterChanged>257</ParameterChanged>
-						<ParameterChanged>242</ParameterChanged>
-						<ParameterChanged>258</ParameterChanged>
-						<ParameterChanged>241</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
 						<EncPara ScaleFactorNumerator="5e-06" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>35</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2958,16 +2917,10 @@ External Setpoint Generation:
 						<Dynamic AccelerationMaximum="100" DecelerationMaximum="100" Acceleration="100" Deceleration="100"/>
 						<Velo Maximum="180"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>39</ParameterChanged>
-						<ParameterChanged>257</ParameterChanged>
-						<ParameterChanged>242</ParameterChanged>
-						<ParameterChanged>258</ParameterChanged>
-						<ParameterChanged>241</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
 						<EncPara ScaleFactorNumerator="0.00504" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>35</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -3284,7 +3237,7 @@ External Setpoint Generation:
 							<Type>INT</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM4.fbDriveVirtual.MasterAxis.NcToPlc</Name>
+							<Name>MAIN.fbMotionStageM1.fbDriveVirtual.MasterAxis.NcToPlc</Name>
 							<Type GUID="{6A65C767-34E5-42BF-AD87-E1A503EAC7BE}" Namespace="MC">NCTOPLC_AXIS_REF</Type>
 							<SubVar>
 								<Name>AxisState</Name>
@@ -3431,7 +3384,7 @@ External Setpoint Generation:
 							<Type>INT</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM5.fbDriveVirtual.MasterAxis.NcToPlc</Name>
+							<Name>MAIN.fbMotionStageM2.fbDriveVirtual.MasterAxis.NcToPlc</Name>
 							<Type GUID="{6A65C767-34E5-42BF-AD87-E1A503EAC7BE}" Namespace="MC">NCTOPLC_AXIS_REF</Type>
 							<SubVar>
 								<Name>AxisState</Name>
@@ -3578,7 +3531,7 @@ External Setpoint Generation:
 							<Type>INT</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM6.fbDriveVirtual.MasterAxis.NcToPlc</Name>
+							<Name>MAIN.fbMotionStageM3.fbDriveVirtual.MasterAxis.NcToPlc</Name>
 							<Type GUID="{6A65C767-34E5-42BF-AD87-E1A503EAC7BE}" Namespace="MC">NCTOPLC_AXIS_REF</Type>
 							<SubVar>
 								<Name>AxisState</Name>
@@ -3725,7 +3678,7 @@ External Setpoint Generation:
 							<Type>INT</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM7.fbDriveVirtual.MasterAxis.NcToPlc</Name>
+							<Name>MAIN.fbMotionStageM4.fbDriveVirtual.MasterAxis.NcToPlc</Name>
 							<Type GUID="{6A65C767-34E5-42BF-AD87-E1A503EAC7BE}" Namespace="MC">NCTOPLC_AXIS_REF</Type>
 							<SubVar>
 								<Name>AxisState</Name>
@@ -3872,7 +3825,7 @@ External Setpoint Generation:
 							<Type>INT</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM8.fbDriveVirtual.MasterAxis.NcToPlc</Name>
+							<Name>MAIN.fbMotionStageM5.fbDriveVirtual.MasterAxis.NcToPlc</Name>
 							<Type GUID="{6A65C767-34E5-42BF-AD87-E1A503EAC7BE}" Namespace="MC">NCTOPLC_AXIS_REF</Type>
 							<SubVar>
 								<Name>AxisState</Name>
@@ -4019,7 +3972,7 @@ External Setpoint Generation:
 							<Type>INT</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM9.fbDriveVirtual.MasterAxis.NcToPlc</Name>
+							<Name>MAIN.fbMotionStageM6.fbDriveVirtual.MasterAxis.NcToPlc</Name>
 							<Type GUID="{6A65C767-34E5-42BF-AD87-E1A503EAC7BE}" Namespace="MC">NCTOPLC_AXIS_REF</Type>
 							<SubVar>
 								<Name>AxisState</Name>
@@ -4166,7 +4119,7 @@ External Setpoint Generation:
 							<Type>INT</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM10.fbDriveVirtual.MasterAxis.NcToPlc</Name>
+							<Name>MAIN.fbMotionStageM7.fbDriveVirtual.MasterAxis.NcToPlc</Name>
 							<Type GUID="{6A65C767-34E5-42BF-AD87-E1A503EAC7BE}" Namespace="MC">NCTOPLC_AXIS_REF</Type>
 							<SubVar>
 								<Name>AxisState</Name>
@@ -4313,7 +4266,7 @@ External Setpoint Generation:
 							<Type>INT</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM11.fbDriveVirtual.MasterAxis.NcToPlc</Name>
+							<Name>MAIN.fbMotionStageM8.fbDriveVirtual.MasterAxis.NcToPlc</Name>
 							<Type GUID="{6A65C767-34E5-42BF-AD87-E1A503EAC7BE}" Namespace="MC">NCTOPLC_AXIS_REF</Type>
 							<SubVar>
 								<Name>AxisState</Name>
@@ -4376,7 +4329,7 @@ External Setpoint Generation:
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM4.fbDriveVirtual.MasterAxis.PlcToNc</Name>
+							<Name>MAIN.fbMotionStageM1.fbDriveVirtual.MasterAxis.PlcToNc</Name>
 							<Type GUID="{63A84524-72E3-41C8-BEAB-4CCE44690A13}" Namespace="MC">PLCTONC_AXIS_REF</Type>
 						</Var>
 						<Var>
@@ -4391,7 +4344,7 @@ External Setpoint Generation:
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM5.fbDriveVirtual.MasterAxis.PlcToNc</Name>
+							<Name>MAIN.fbMotionStageM2.fbDriveVirtual.MasterAxis.PlcToNc</Name>
 							<Type GUID="{63A84524-72E3-41C8-BEAB-4CCE44690A13}" Namespace="MC">PLCTONC_AXIS_REF</Type>
 						</Var>
 						<Var>
@@ -4406,7 +4359,7 @@ External Setpoint Generation:
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM6.fbDriveVirtual.MasterAxis.PlcToNc</Name>
+							<Name>MAIN.fbMotionStageM3.fbDriveVirtual.MasterAxis.PlcToNc</Name>
 							<Type GUID="{63A84524-72E3-41C8-BEAB-4CCE44690A13}" Namespace="MC">PLCTONC_AXIS_REF</Type>
 						</Var>
 						<Var>
@@ -4421,7 +4374,7 @@ External Setpoint Generation:
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM7.fbDriveVirtual.MasterAxis.PlcToNc</Name>
+							<Name>MAIN.fbMotionStageM4.fbDriveVirtual.MasterAxis.PlcToNc</Name>
 							<Type GUID="{63A84524-72E3-41C8-BEAB-4CCE44690A13}" Namespace="MC">PLCTONC_AXIS_REF</Type>
 						</Var>
 						<Var>
@@ -4436,7 +4389,7 @@ External Setpoint Generation:
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM8.fbDriveVirtual.MasterAxis.PlcToNc</Name>
+							<Name>MAIN.fbMotionStageM5.fbDriveVirtual.MasterAxis.PlcToNc</Name>
 							<Type GUID="{63A84524-72E3-41C8-BEAB-4CCE44690A13}" Namespace="MC">PLCTONC_AXIS_REF</Type>
 						</Var>
 						<Var>
@@ -4451,7 +4404,7 @@ External Setpoint Generation:
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM9.fbDriveVirtual.MasterAxis.PlcToNc</Name>
+							<Name>MAIN.fbMotionStageM6.fbDriveVirtual.MasterAxis.PlcToNc</Name>
 							<Type GUID="{63A84524-72E3-41C8-BEAB-4CCE44690A13}" Namespace="MC">PLCTONC_AXIS_REF</Type>
 						</Var>
 						<Var>
@@ -4466,7 +4419,7 @@ External Setpoint Generation:
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM10.fbDriveVirtual.MasterAxis.PlcToNc</Name>
+							<Name>MAIN.fbMotionStageM7.fbDriveVirtual.MasterAxis.PlcToNc</Name>
 							<Type GUID="{63A84524-72E3-41C8-BEAB-4CCE44690A13}" Namespace="MC">PLCTONC_AXIS_REF</Type>
 						</Var>
 						<Var>
@@ -4481,7 +4434,7 @@ External Setpoint Generation:
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.fbMotionStageM11.fbDriveVirtual.MasterAxis.PlcToNc</Name>
+							<Name>MAIN.fbMotionStageM8.fbDriveVirtual.MasterAxis.PlcToNc</Name>
 							<Type GUID="{63A84524-72E3-41C8-BEAB-4CCE44690A13}" Namespace="MC">PLCTONC_AXIS_REF</Type>
 						</Var>
 					</Vars>
