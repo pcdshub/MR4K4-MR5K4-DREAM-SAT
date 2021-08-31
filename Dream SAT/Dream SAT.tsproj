@@ -1472,7 +1472,6 @@ External Setpoint Generation:
 					<Encoder Name="Enc" EncType="29">
 						<EncPara ScaleFactorNumerator="5e-06" Offset="-29.9549" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>7</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -1678,7 +1677,6 @@ External Setpoint Generation:
 					<Encoder Name="Enc" EncType="29">
 						<EncPara ScaleFactorNumerator="5e-06" Offset="-30.4538" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>7</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -1886,7 +1884,6 @@ External Setpoint Generation:
 					<Encoder Name="Enc" EncType="29">
 						<EncPara ScaleFactorNumerator="5e-06" Offset="-29.5449" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>7</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2093,7 +2090,7 @@ External Setpoint Generation:
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
-						<EncPara ScaleFactorNumerator="0.0025826" Offset="-132200.6" MaxCount="#xffffffff">
+						<EncPara ScaleFactorNumerator="0.0025826" Offset="-132198.31" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
 							<ParameterChanged>7</ParameterChanged>
 						</EncPara>
@@ -2301,9 +2298,8 @@ External Setpoint Generation:
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
-						<EncPara Offset="-29.99" MaxCount="#xffffffff">
+						<EncPara ScaleFactorNumerator="5e-06" Offset="-29.99" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>7</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2511,7 +2507,6 @@ External Setpoint Generation:
 					<Encoder Name="Enc" EncType="29">
 						<EncPara ScaleFactorNumerator="5e-06" Offset="-29.6859" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>7</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2719,7 +2714,6 @@ External Setpoint Generation:
 					<Encoder Name="Enc" EncType="29">
 						<EncPara ScaleFactorNumerator="5e-06" Offset="-30.2985" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>7</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2926,7 +2920,7 @@ External Setpoint Generation:
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="29">
-						<EncPara ScaleFactorNumerator="0.00504" Offset="-198368.4" MaxCount="#xffffffff">
+						<EncPara ScaleFactorNumerator="0.00504" Offset="-198155.79" MaxCount="#xffffffff">
 							<Inc RefSoftSyncMask="#x0000ffff"/>
 							<ParameterChanged>7</ParameterChanged>
 						</EncPara>
