@@ -1513,7 +1513,7 @@ External Setpoint Generation:
 						</Vars>
 					</Encoder>
 					<Drive Name="Drive" DrvType="24">
-						<DrvPara>
+						<DrvPara Inverse="true">
 							<Analog VeloReferenz="20" ScaleFactorActTorque="0.1"/>
 							<TimeComp TaskDelayCycles="1"/>
 						</DrvPara>
@@ -1602,8 +1602,10 @@ Drive Status 4 (manually linked):
 							</Var>
 						</Vars>
 					</Drive>
-					<Controller Name="Ctrl" CtrType="1">
+					<Controller Name="Ctrl" CtrType="2">
 						<CtrPara PriorControlFactor="1">
+							<PosDiffControl Range="2"/>
+							<PID DeadBandPosition="0.1"/>
 							<Observer BandWidth="20"/>
 						</CtrPara>
 					</Controller>
@@ -1718,9 +1720,10 @@ External Setpoint Generation:
 						</Vars>
 					</Encoder>
 					<Drive Name="Drive" DrvType="24">
-						<DrvPara>
+						<DrvPara Inverse="true">
 							<Analog VeloReferenz="1.25" ScaleFactorActTorque="0.1"/>
 							<TimeComp TaskDelayCycles="1"/>
+							<ParameterChanged>6</ParameterChanged>
 						</DrvPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -1807,8 +1810,9 @@ Drive Status 4 (manually linked):
 							</Var>
 						</Vars>
 					</Drive>
-					<Controller Name="Ctrl" CtrType="1">
+					<Controller Name="Ctrl" CtrType="2">
 						<CtrPara PriorControlFactor="1">
+							<PID DeadBandPosition="0.2"/>
 							<Observer BandWidth="20"/>
 						</CtrPara>
 					</Controller>
@@ -5662,7 +5666,7 @@ External Setpoint Generation:
 								<Entry Name="Status__">
 									<Type GUID="{18071995-0000-0000-0000-002000000003}">ARRAY [0..2] OF BIT</Type>
 								</Entry>
-								<Entry Name="Status__Digital input 1" Index="#x6010" Sub="#x0c">
+								<Entry Name="Status__Digital input 1" Index="#x6010" Sub="#x0c" Flags="#x00008020">
 									<Type>BIT</Type>
 								</Entry>
 								<Entry Name="Status__Digital input 2" Index="#x6010" Sub="#x0d">
