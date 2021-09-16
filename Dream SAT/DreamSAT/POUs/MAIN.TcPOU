@@ -31,8 +31,8 @@ VAR
 	
 	 M6 : DUT_MotionStage := (nEnableMode:=ENUM_StageEnableMode.ALWAYS, bPowerSelf:=TRUE);
     fbMotionStageM6 : FB_MotionStage;
-	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[M5K4 Z]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable:=TIIB[M5K4 Z]^STM Status^Status^Digital input 2'}
+	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[M5K4 Z]^STM Status^Status^Digital input 2;
+                              .bLimitBackwardEnable:=TIIB[M5K4 Z]^STM Status^Status^Digital input 1'}
 	 M7 : DUT_MotionStage := (nEnableMode:=ENUM_StageEnableMode.ALWAYS, bPowerSelf:=TRUE);
     fbMotionStageM7 : FB_MotionStage;
 	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[M5K4 P]^STM Status^Status^Digital input 1;
