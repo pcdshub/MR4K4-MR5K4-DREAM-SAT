@@ -1,0 +1,29 @@
+lcls-plc-test-m4k4-m5k4-dream-sat
+---------------------------------
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Dream SAT
+
+    Dream SAT_pragmas
+    Dream SAT_nc
+    Dream SAT_boxes
+    Dream SAT_links
+
+
+.. toctree::
+    :maxdepth: 2
+    :caption: DreamSAT
+
+    Dream SAT_DreamSAT_summary
+    Dream SAT_DreamSAT_epics
+    Dream SAT_DreamSAT_source
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

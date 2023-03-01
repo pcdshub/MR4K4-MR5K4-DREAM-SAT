@@ -1,0 +1,21 @@
+
+Pragmas
+-------
+
+.. csv-table::
+    :header: PLC Name, Total Pragmas, Errors
+    :align: center
+
+    :ref:`DreamSAT <DreamSAT_overview_pragmas>`, 9, 0
+
+
+.. _DreamSAT_overview_pragmas:
+
+
+DreamSAT
+^^^^^^^^
+
+Total pragmas found: 9
+Total linter errors: 0
+
+
